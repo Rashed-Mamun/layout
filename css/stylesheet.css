@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,700&display=swap');
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+}
+img{
+	max-width: 100%;
+	display: block;
+
+}
+
+a, a:hover{
+	text-decoration: none;
+}
+
+ .heading{}
+
+ .container{width: 1200px;
+ 			margin: auto;}
+
+  	
+ .row{display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    }
+
+h1{
+
+	font-size: 2.3em;
+	text-align: center;
+	font-weight: 400;
+	padding-bottom: 100px;
+	text-transform: capitalize;
+}
+h2{}
+h3{}
+h4{}
+h5{}
+h6{font-size: 1.3em;text-align: center;padding: 200px 0 5px;color: #558cc7;font-weight: 500;letter-spacing: 3px;}
+
+
+
+                /***************************                 features section         ************************************/
+
+ .col-1-3{
+ 	max-width: 33.33%;flex-basis: 33.33%;padding: 15px;}
+ .feature{text-align: center;}
+ .feature span {background: #dbecff;display: inline-block;border-radius: 50px;width: 75px;height: 75px;margin: auto;}
+ .feature strong {background: #f6ceef;display: inline-block;border-radius: 50px;width: 75px;height: 75px;margin: auto;}
+ .feature b {background: #e9ddc6;display: inline-block;border-radius: 50px;width: 75px;height: 75px;margin: auto;}
+ .feature span a {}
+ .feature h2{font-weight: 400;font-size: 25px;}
+ .feature p{color: #949191;font-size: 17px;padding: 15px;}
+ .trophy-blue{padding-top: 28px;padding-right: 19px;}
+ .trophy-pink{padding-top: 28px;padding-right: 19px;}
+ .sms-yellow{padding-top: 28px;padding-right: 19px;}
+ .flaticon-trophy-1{color: blue;}
+ .flaticon-sms{color: blue;}
+ .feature span:hover {background:#b1b2b3;transition: all .5s;}
+ .feature strong:hover {background:#b1b2b3;transition: all .5s;}
+ .feature b:hover {background:#b1b2b3;transition: all .5s;}
+
+               /***************************                 social meida section         ************************************/
+
+ .social-media{ background: #09152F; height: 400px;padding: 100px 100px;margin-top: 150px;}
+ .social-media .col-1-3{
+ 	max-width: 33.33%;flex-basis: 33.33%;}
+ .smedia{text-align: center;}
+ .smedia span {color: #aba8a8d1;font-size: 55px;}
+ .smedia h2 a{font-weight: 300;font-size: 24px;color: #fff;}
+ .smedia p{color: #5f5f5f;font-size: 14px;padding: 15px;}
+ .smedia h2 a:hover{font-weight: 300; font-size: 24px; color:#1c32e2;}
+
+
+
+               /***************************                 sevice section         ************************************/
+
+.service{height: 707px;background: #fdfcfc;padding: 121px 0;}
+.col-1-2{max-width: 50%;flex-basis: 50%;padding: 15px;}
+.btn h6{}
+.col-1-2 h5 a{background: #4242d3;display: inline-block;padding: 15px 20px;font-size: 18px;text-transform: uppercase;color: #fff;border-radius: 5px;}
+.col-1-2 h1{padding-top: 0;letter-spacing: 3px;text-align: left;padding-bottom: 25px;font-size: 3em;line-height: 1.2;padding-right: 100px;font-weight: 97;}
+.col-1-2 h3{font-weight: 100;padding: 30px 0;}
+.col-1-2 h6{padding-top: 0;letter-spacing: 3px;text-align: left;padding-bottom: 25px;}
+.parner-logo {padding: 49px;background: #fefefe;width: 200px;height: 235px;border-radius: 8px;box-shadow: 0px 0px 7px #dadada;}
+.parner-logo:hover{transform: scale(1.1);transition: all .7s;}
+.service img{padding-bottom: 15px;}
+.service h4{color: #827f7f;text-align: center;font-size: 18px;font-weight: 500;text-transform: capitalize;}
+.col-1-2 h5 a:hover{	background:#fdeca6;
+					display: inline-block;
+					padding: 15px 20px;
+					font-size: 18px;
+					text-transform: uppercase;
+					color:#464646;
+					border-radius: 5px;
+					transition: all .5s;}
+
+
+
+
+               /***************************                 footer section         ************************************/
+
+
+footer{ height: 410px;
+background: #f0efef; }
+.col-1-4{max-width: 25%;flex-basis: 25%;padding-top: 93px;}
+.col-1-4 ul {list-style: none;text-align: left;text-transform: capitalize;}
+.col-1-4 ul li{padding: 10px;}
+.col-1-4 ul li p{font-weight: 600;font-size: 21px;color: #333 !important;}
+.col-1-4 ul li a{color: #747070;}
